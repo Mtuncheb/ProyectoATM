@@ -14,6 +14,25 @@ public class Cuenta {
     private int numeroDeCuenta;
     private int nip;
     
+
+    public Cuenta(int numeroCuenta, int nip, float saldo, float saldoFlotante) {
+        this.numeroDeCuenta = numeroCuenta;
+        this.nip = nip;
+        this.saldo = saldo; 
+        this.saldoFlotante = saldoFlotante;
+
+    }
+    
+    //Metodo de autenticaión del NIP
+    public boolean autenticarNip(int nipUsuario){
+        if(nipUsuario == this.nip){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    
     Cuenta(String nombre) { 
         System.out.println("Hola " + nombre);
     }

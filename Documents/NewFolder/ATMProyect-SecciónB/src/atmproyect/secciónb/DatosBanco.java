@@ -10,6 +10,8 @@ package atmproyect.secciónb;
  */
 public class DatosBanco {
     
-    
+    //Creacion de objetos, ()Constructor
+    Cuenta cuentaObj1 = new Cuenta("09876, 08765, 07654, 06543, 05432, 04321"); 
+
     
 }
