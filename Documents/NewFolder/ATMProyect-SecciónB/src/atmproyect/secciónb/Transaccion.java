@@ -10,7 +10,7 @@ package atmproyect.secciónb;
  */
 public abstract class Transaccion {
     private int monto;
-    
+        
     public void ejecutar(int monto) {
         System.out.println("Retiro.ejecutar()");
     

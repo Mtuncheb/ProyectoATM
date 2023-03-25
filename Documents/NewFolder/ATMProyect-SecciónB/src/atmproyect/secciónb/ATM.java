@@ -63,10 +63,10 @@ public class ATM {
         pantallaObj.mostrarMensaje("1- $20         4- $100\n");
         pantallaObj.mostrarMensaje("2- $40         5- $200\n");
         pantallaObj.mostrarMensaje("3- $60         6- Cancelar transaccion\n");
-        pantallaObj.mostrarMensaje("Elija un monto de retiro: ");
+        pantallaObj.mostrarMensaje("Elija un monto de retiro: \n");
         int montoRetiro = tecladonumericoObj.capturarDatos();
         
-        pantallaObj.mostrarMensaje("Tome el efectivo");
+        pantallaObj.mostrarMensaje("Tome el efectivo \n");
         
         //Declaramos las variables con los valores de las opciones del menú Retiro
         int Opc1 = 1;

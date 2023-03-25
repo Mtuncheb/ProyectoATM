@@ -14,7 +14,7 @@ public class Cuenta {
     private int numeroDeCuenta;
     private int nip;
     
-
+    //Constructor
     public Cuenta(int numeroCuenta, int nip, float saldo, float saldoFlotante) {
         this.numeroDeCuenta = numeroCuenta;
         this.nip = nip;
