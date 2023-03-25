@@ -37,8 +37,9 @@ public class ATM {
         pantallaObj.mostrarMensaje("Bienvenida!\n");
         pantallaObj.mostrarMensaje("Ingrese su numero de cuenta: ");
         //Toma el valor capturar datos
-        int numeroCuenta = tecladonumericoObj.capturarDatos();
         
+        int numeroCuenta = tecladonumericoObj.capturarDatos();
+        //System.out.println("El numero de cuenta es: " + numeroCuenta);
         pantallaObj.mostrarMensaje("Ingrese su NIP: ");
         int NIP = tecladonumericoObj.capturarDatos();
         
@@ -51,6 +52,12 @@ public class ATM {
         pantallaObj.mostrarMensaje("Escriba una opción: ");
         int opcion = tecladonumericoObj.capturarDatos();
         
+        //Declaramos las variables con los valores de las opciones del menú principal
+        int consultarSaldo = 1;
+        int retiro = 2;
+        int Deposito = 3;
+        int Salir = 4;
+        
         pantallaObj.mostrarMensaje("\n");//Espacio en blanco
         pantallaObj.mostrarMensaje("Menu de retiro\n");
         pantallaObj.mostrarMensaje("1- $20         4- $100\n");
@@ -59,14 +66,25 @@ public class ATM {
         pantallaObj.mostrarMensaje("Elija un monto de retiro: ");
         int montoRetiro = tecladonumericoObj.capturarDatos();
         
+        pantallaObj.mostrarMensaje("Tome el efectivo");
+        
+        //Declaramos las variables con los valores de las opciones del menú Retiro
+        int Opc1 = 1;
+        int Opc2 = 2;
+        int Opc3 = 3;
+        int Opc4 = 4;
+        int Opc5 = 5;
+        int Opc6 = 6;
+        
         pantallaObj.mostrarMensaje("\n");//Espacio en blanco
         pantallaObj.mostrarMensaje("Menu de deposito\n");
         pantallaObj.mostrarMensaje("Introduzca 0 para cancelar la transaccion\n");
         pantallaObj.mostrarMensaje("Introduzca un monto de depósito: ");
         int montoDeposito = tecladonumericoObj.capturarDatos();
         
+        int cancel = 0;
         
-        //System.out.println("El numero de cuenta es: " + numeroCuenta);
+        
     }
     
     //private Autenticar(){
